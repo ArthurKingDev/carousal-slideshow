@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carousel/Slidesshow</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="pagination">1 / 6</div>
+            <figure>
+            <img class="img" src="./images/img1.jpg" />
+            <figcaption>Budgets and Financial Plans</figcaption>
+        </figure>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="pagination">2 / 6</div>
+            <figure>
+            <img class="img" src="./images/img2.jpg" />
+            <figcaption>Chatbots for your Mobile Applications</figcaption>
+        </figure>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="pagination">3 / 6</div>
+            <figure>
+            <img class="img" src="./images/img3.jpg" />
+            <figcaption>Cryptocurrency on Stock Exchanges</figcaption>
+            </figure>
+        </div>
+
+
+        <div class="mySlides fade">
+            <div class="pagination">4 / 6</div>
+            <figure>
+            <img class="img" src="./images/img4.jpg" />
+            <figcaption>Engineering and Technical Drawing</figcaption>
+        </figure>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="pagination">5 / 6</div>
+            <figure>
+            <img class="img" src="./images/img5.jpg" />
+            <figcaption>Notes Reminders</figcaption>
+        </figure>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="pagination">6 / 6</div>
+            <figure>
+            <img class="img" src="./images/img6.jpg" />
+            <figcaption>Gallery Preview</figcaption>
+            </figure>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!--The dots-->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+    <script src="myScript.js"></script>
+</body>
+
+</html>
