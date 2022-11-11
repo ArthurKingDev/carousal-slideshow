@@ -1,3 +1,3 @@
 # Hosted pages
 
-https://github.com/ArthurKingDev/carousel-slideshow.git
+https://arthurkingdev.github.io/carousel-slideshow/
